@@ -17,7 +17,7 @@ Gif https://github.com/cicadabear/show_in_file_manager/blob/main/screen_recoding
 If you worry about that, you can build it by ```pyinstaller --onefile show_in_file_manager.py```.
 2. Due to the different URL length limit in different browsers, if you want to show more than 150 image files, you may need to use Firefox.  
 3. Don't forget the ini file.
-
+4. 2. If you know a desktop app that can show images on a map, and manage the image files on the map, please leave a comment on issues and let me know.  
 ## Related Links   
 
 https://superuser.com/a/1333892/627078  
