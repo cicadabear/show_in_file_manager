@@ -1,4 +1,6 @@
 # show_in_file_manager
+# select multiple files in windows explorer and on Mac and Linux.
+
 ![](./show_in_file_manager.png)  
 
 ![](./show_in_file_manager2.png)  
