@@ -1,8 +1,10 @@
 # show_in_file_manager
-# select multiple files in windows explorer and on Mac and Linux.   
+# Select multiple files in windows explorer and on Mac and Linux.   
 ### Work with the modified fork of PhotoView (a self-hosted photo and video web gallery).  
 
-**https://github.com/cicadabear/photoview_like_desktop_app**
+**https://github.com/cicadabear/photoview_like_desktop_app**  
+
+![](./show_in_file_manager3.png)  
 
 ![](./show_in_file_manager.png)  
 
