@@ -11,8 +11,10 @@
 Gif https://github.com/cicadabear/show_in_file_manager/blob/main/screen_recoding.gif  
 
 ## Notice 
-The show_in_file_manager.exe file may be intercepted by anti-virus software.   
-If you worry about that, you can build it by ```pyinstaller --onefile show_in_file_manager.py```.  
+1. The show_in_file_manager.exe file may be intercepted by anti-virus software.   
+If you worry about that, you can build it by ```pyinstaller --onefile show_in_file_manager.py```.
+2. Due to the different URL length limit in different browsers, if you want to show more than 150 image files, you may need to use Firefox.  
+3. Don't forget the ini file.
 
 ## Related Links   
 
