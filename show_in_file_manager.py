@@ -42,6 +42,5 @@ arg_str = args[0]
 if len(args) == 1 and ":" in arg_str:
     args = urllib.parse.unquote(arg_str).split(":")[1].split(",")
 files = [os.path.join(folder_path, file_path.strip()) for file_path in args]
-print(files)
 show_in_file_manager(files)
 #pyinstaller --onefile show_in_file_manager.py
