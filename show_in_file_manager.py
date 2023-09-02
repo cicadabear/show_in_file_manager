@@ -37,7 +37,7 @@ if config['DEFAULT']['enable_log'] == 'true':
     )
     logging.debug('sys.argv: ' + str(sys.argv))
 
-# arg showinmanager:2.txt,3.txt
+# arg showinfilemanager:2.txt,3.txt
 arg_str = args[0]
 if len(args) == 1 and ":" in arg_str:
     args = urllib.parse.unquote(arg_str).split(":")[1].split(",")
