@@ -23,7 +23,7 @@ if ini_path == "":
     raise RuntimeError("ini configuration file cannot be found.")
 
 config = configparser.ConfigParser()
-config.read(ini_path)
+config.read(ini_path, encoding="UTF-8")
 folder_path = config["DEFAULT"]["path"].strip()
 args = sys.argv[1:]
 print(config['DEFAULT']['enable_log'])
