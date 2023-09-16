@@ -43,7 +43,7 @@ if config["DEFAULT"]["enable_log"] == "true":
 args = sys.argv[1:]
 # arg showinfilemanager:2.txt,3.txt
 # arg_str = args[0]
-args = ["GH014055_video_thumbnail_mp4.JPG"]
+# args = ["GH014055_video_thumbnail_mp4.JPG"]
 files = []
 is_abs_path = False
 # process opening from web or showinfm.exe 1.txt,2.txt
