@@ -48,7 +48,7 @@ def geotag_video(file):
         text=True,
     ).stdout
     gpx = gpxpy.parse(gpx_data)
-    point = gpx.tracks[0].segments[0].points[0]
+    point = gpx.tracks[0].segments[0].points[10]
     # point_end = gpx.tracks[0].segments[0].points[-1]
     i = 1
     while point.latitude == 0:
