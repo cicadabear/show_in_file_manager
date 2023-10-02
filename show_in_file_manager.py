@@ -1,4 +1,5 @@
 #! python3
+# pip install show-in-file-manager
 from showinfm import show_in_file_manager
 import sys
 import os
